@@ -19,8 +19,8 @@ development:
   encoding: unicode
   database: enyo_development
   pool: 5
-  username: enyo
-  password:
+  username: postgres
+  password: 4815162342aAA
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,13 +48,13 @@ test:
   encoding: unicode
   database: enyo_test
   pool: 5
-  username: enyo
-  password:
+  username: postgres
+  password: 4815162342aAA
 
 production:
   adapter: postgresql
   encoding: unicode
   database: enyo_production
   pool: 5
-  username: enyo
-  password:
+  username: postgres
+  password: 4815162342aAA
