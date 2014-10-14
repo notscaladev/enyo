@@ -6,6 +6,18 @@ gem 'rails', '4.0.9'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# testing
+gem 'rspec-rails'
+gem 'shoulda-matchers'
+
+# coverage
+gem 'simplecov'
+gem 'simplecov-html'
+
+# Authentication
+gem 'devise'
+gem 'devise_lastseenable'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
@@ -32,6 +44,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# CSS
+gem 'bootstrap-sass'
+gem 'compass-rails'
+gem 'backbone-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -45,3 +62,8 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem "railties", ">= 0"
+gem 'factory_girl'
+gem 'factory_girl_rails'
+gem 'capybara'
+gem 'coveralls', require: false
+gem 'activerecord-session_store'
